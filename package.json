@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "reproduce": "rm -rf dist && ng build demo-lib-shell --prod && ng build demo-lib --prod && ng build"
+    "reproduce": "rm -rf dist && ng build demo-lib-shell --prod && ng build demo-lib --prod && ng build",
+    "reproduce:docker": "docker build ."
   },
   "private": true,
   "dependencies": {
